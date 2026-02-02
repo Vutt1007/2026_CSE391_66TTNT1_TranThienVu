@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai tap 02 - Danh sach khoa hoc</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+    <h1 style="color: red;">KHOA HOC SAP KHAI GIANG</h1>
+
+    <div>
+        <img src="hinh1.jpg" alt="Lap trinh vien quoc te" width="300">
+        <h3>LAP TRINH VIEN QUOC TE</h3>
+        <p>Chuong trinh dao tao chuan quoc te va toan dien. Phu hop voi hoc sinh tot nghiep THPT...</p>
+        <ul>
+            <li><i class="fa-solid fa-gift"></i> Hoc bong 15.000.000 VND</li>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 2/2024</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 2 - 2.5 nam</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="hinh2.jpg" alt="Web Fullstack" width="300">
+        <h3>LAP TRINH WEB FULLSTACK</h3>
+        <p>Khoa hoc phu hop voi nguoi bat dau lap trinh hoac nguoi chuyen nghe...</p>
+        <ul>
+            <li><i class="fa-solid fa-tag"></i> Uu dai giam 15% hoc phi</li>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 2/2024</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 6 thang</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="hinh3.jpg" alt="Java Fullstack" width="300">
+        <h3>LAP TRINH JAVA FULLSTACK</h3>
+        <p>Phat trien ung dung web tu co ban den nang cao bang Java, Spring Framework...</p>
+        <ul>
+            <li><i class="fa-solid fa-tag"></i> Uu dai giam 15% hoc phi</li>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 2/2024</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 236 gio</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="hinh4.jpg" alt="PHP Laravel" width="300">
+        <h3>LAP TRINH PHP & LARAVEL</h3>
+        <p>PHP la mot trong cac ngon ngu thiet ke web manh nhat hien nay...</p>
+        <ul>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 5/2/2024</li>
+            <li><i class="fa-solid fa-money-bill"></i> Hoc phi: 9.600.000 VND</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 36 gio</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="hinh5.jpg" alt="Dot Net" width="300">
+        <h3>KHOA HOC LAP TRINH .NET</h3>
+        <p>Phat trien ung dung web su dung nen tang ASP.NET Core MVC...</p>
+        <ul>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 2/2024</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 40 gio</li>
+            <li><i class="fa-solid fa-money-bill"></i> Hoc phi: 6.000.000 VND</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <img src="hinh6.jpg" alt="SQL Server" width="300">
+        <h3>LAP TRINH SQL SERVER</h3>
+        <p>Trang bi nhung kien thuc nen tang vung chac ve SQL Server...</p>
+        <ul>
+            <li><i class="fa-regular fa-clock"></i> Khai giang: 2/2024</li>
+            <li><i class="fa-solid fa-money-bill"></i> Hoc phi: 4.500.000 VND</li>
+            <li><i class="fa-solid fa-calendar-days"></i> Thoi luong: 30 gio</li>
+        </ul>
+    </div>
+
+</body>
+</html>
