@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BTVN 2 - Multi-step Form</title>
+    <link rel="stylesheet" href="btvn2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="progress-container">
+            <div id="progress-bar"></div>
+            <div class="steps-info">Buoc <span id="cur-step">1</span>/3</div>
+        </div>
+
+        <form id="multiStepForm">
+            <section class="step active" id="step1">
+                <h3>Thong tin ca nhan</h3>
+                <div class="f-group">
+                    <label>Ho va ten:</label>
+                    <input type="text" id="name" placeholder="Nhap ho ten">
+                    <span class="err" id="err-name"></span>
+                </div>
+                <div class="f-group">
+                    <label>Ngay sinh:</label>
+                    <input type="date" id="dob">
+                    <span class="err" id="err-dob"></span>
+                </div>
+                <div class="f-group">
+                    <label>Gioi tinh:</label>
+                    <select id="gender">
+                        <option value="">-- Chon --</option>
+                        <option value="Nam">Nam</option>
+                        <option value="Nu">Nu</option>
+                    </select>
+                    <span class="err" id="err-gender"></span>
+                </div>
+            </section>
+
+            <section class="step" id="step2">
+                <h3>Thong tin tai khoan</h3>
+                <div class="f-group">
+                    <label>Email:</label>
+                    <input type="email" id="mail" placeholder="example@mail.com">
+                    <span class="err" id="err-mail"></span>
+                </div>
+                <div class="f-group">
+                    <label>Mat khau:</label>
+                    <input type="password" id="pass">
+                    <span class="err" id="err-pass"></span>
+                </div>
+                <div class="f-group">
+                    <label>Xac nhan mat khau:</label>
+                    <input type="password" id="repass">
+                    <span class="err" id="err-repass"></span>
+                </div>
+            </section>
+
+            <section class="step" id="step3">
+                <h3>Xac nhan thong tin</h3>
+                <div id="review-data" class="review-box"></div>
+            </section>
+
+            <div class="btn-group">
+                <button type="button" id="btnPrev" style="display: none;">Quay lai</button>
+                <button type="button" id="btnNext">Tiep theo</button>
+            </div>
+        </form>
+    </div>
+    <script src="3.2.js"></script>
+</body>
+</html>

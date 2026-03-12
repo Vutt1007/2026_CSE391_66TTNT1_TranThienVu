@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai 1.2 - Bo loc va Tim kiem</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #000; padding: 10px; text-align: center; }
+        th.sortable { cursor: pointer; background-color: #f2f2f2; }
+        th.sortable:hover { background-color: #ddd; }
+        .filter-group { display: flex; gap: 10px; margin-bottom: 15px; }
+        input, select { padding: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Bo loc va Tim kiem Sinh vien</h2>
+
+    <div class="filter-group">
+        <input type="text" id="searchInp" placeholder="Tim ten sinh vien...">
+        
+        <select id="filterGrade">
+            <option value="all">Tat ca xep loai</option>
+            <option value="Gioi">Gioi</option>
+            <option value="Kha">Kha</option>
+            <option value="Trung binh">Trung binh</option>
+            <option value="Yeu">Yeu</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Ho ten</th>
+                <th id="btnSort" class="sortable">Diem <span id="sortIcon">↕</span></th>
+                <th>Xep loai</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="bai1_2.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; }
+.container { background: white; max-width: 400px; margin: auto; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.f-group { margin-bottom: 20px; position: relative; }
+label { display: block; font-weight: bold; margin-bottom: 5px; }
+input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+
+/* Bo dem ky tu */
+#name-counter { text-align: right; font-size: 12px; color: #666; margin-top: 2px; }
+
+/* Pass wrap & Toggle button */
+.pass-wrap { position: relative; }
+#togglePass { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; font-size: 18px; width: auto; color: #555; }
+
+/* Strength Bar */
+.strength-meter { height: 6px; background: #eee; border-radius: 3px; margin-top: 8px; overflow: hidden; }
+#strength-bar { height: 100%; width: 0; transition: 0.3s ease; }
+#strength-text { font-size: 12px; font-weight: bold; margin-top: 4px; }
+
+/* Colors */
+.err { color: red; font-size: 12px; display: block; margin-top: 5px; }
+button[type="submit"] { width: 100%; padding: 12px; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+button[type="submit"]:hover { background: #219150; }

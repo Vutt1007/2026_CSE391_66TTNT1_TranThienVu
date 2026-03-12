@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai 2.2 - Dat Hang Nang Cao</title>
+    <link rel="stylesheet" href="bai2_2.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Don Dat Hang Truc Tuyen</h2>
+        <form id="orderForm">
+            <div class="f-group">
+                <label>Ten san pham:</label>
+                <select id="prod">
+                    <option value="">-- Chon san pham --</option>
+                    <option value="Ao">Ao Thun - 150.000 VND</option>
+                    <option value="Quan">Quan Jean - 250.000 VND</option>
+                    <option value="Giay">Giay Sneaker - 500.000 VND</option>
+                </select>
+                <span class="err" id="err-prod"></span>
+            </div>
+
+            <div class="f-group">
+                <label>So luong (1-99):</label>
+                <input type="number" id="qty" value="1">
+                <span class="err" id="err-qty"></span>
+            </div>
+
+            <div class="f-group">
+                <label>Ngay giao hang:</label>
+                <input type="date" id="dDate">
+                <span class="err" id="err-dDate"></span>
+            </div>
+
+            <div class="f-group">
+                <label>Dia chi giao:</label>
+                <input type="text" id="addr" placeholder="Toi thieu 10 ky tu">
+                <span class="err" id="err-addr"></span>
+            </div>
+
+            <div class="f-group">
+                <label>Phuong thuc thanh toan:</label>
+                <div class="radio-wrap">
+                    <input type="radio" name="pay" value="COD"> COD
+                    <input type="radio" name="pay" value="Chuyen khoan"> Chuyen khoan
+                    <input type="radio" name="pay" value="Vi dien tu"> Vi dien tu
+                </div>
+                <span class="err" id="err-pay"></span>
+            </div>
+
+            <div class="f-group">
+                <label>Ghi chu:</label>
+                <textarea id="note" maxlength="250"></textarea>
+                <div id="char-counter">0/200</div>
+                <span class="err" id="err-note"></span>
+            </div>
+
+            <div class="total-box">
+                Tong tien: <span id="total-val">0</span> VND
+            </div>
+
+            <button type="submit">Gui don hang</button>
+        </form>
+
+        <div id="confirm-modal" class="modal">
+            <div class="modal-content">
+                <h3>Xac nhan dat hang?</h3>
+                <div id="summary"></div>
+                <div class="modal-btns">
+                    <button id="btn-final-ok">Xac nhan</button>
+                    <button id="btn-final-cancel">Huy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="2.2.js"></script>
+</body>
+</html>

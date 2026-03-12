@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BTVN 1 - Nang cap Form Dang ky</title>
+    <link rel="stylesheet" href="3.1.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Nang Cap Form Dang Ky</h2>
+        <form id="upgradeForm">
+            <div class="f-group">
+                <label>Ho va ten:</label>
+                <input type="text" id="fullname" maxlength="50" placeholder="Toi thieu 3 ky tu">
+                <div id="name-counter">0/50</div>
+                <span class="err" id="err-name"></span>
+            </div>
+
+            <div class="f-group">
+                <label>Mat khau:</label>
+                <div class="pass-wrap">
+                    <input type="password" id="pass" placeholder="8+ ky tu, hoa, thuong, so">
+                    <button type="button" id="togglePass">👁</button>
+                </div>
+                <div class="strength-meter">
+                    <div id="strength-bar"></div>
+                </div>
+                <div id="strength-text"></div>
+                <span class="err" id="err-pass"></span>
+            </div>
+
+            <button type="submit">Cap nhat</button>
+        </form>
+    </div>
+    <script src="3.1.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai 2.1 - Dang ky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="regForm">
+            <h2>Dang ky tai khoan</h2>
+            
+            <div class="form-group">
+                <label>Ho va ten</label>
+                <input type="text" id="fullname">
+                <span class="error" id="err-fullname"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" id="email">
+                <span class="error" id="err-email"></span>
+            </div>
+
+            <div class="form-group">
+                <label>So dien thoai</label>
+                <input type="text" id="phone">
+                <span class="error" id="err-phone"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Mat khau</label>
+                <input type="password" id="password">
+                <span class="error" id="err-password"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Xac nhan mat khau</label>
+                <input type="password" id="confirm">
+                <span class="error" id="err-confirm"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Gioi tinh:</label>
+                <input type="radio" name="gender" value="Nam"> Nam
+                <input type="radio" name="gender" value="Nu"> Nu
+                <span class="error" id="err-gender"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="terms"> Toi dong y voi dieu khoan
+                <span class="error" id="err-terms"></span>
+            </div>
+
+            <button type="submit">Dang ky</button>
+        </form>
+        <div id="success-msg" style="display:none"></div>
+    </div>
+    <script src="2.1.js"></script>
+</body>
+</html>
