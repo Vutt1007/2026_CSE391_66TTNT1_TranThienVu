@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace; /* Font chữ dạng máy đánh chữ như trong hình */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.main-wrapper {
+    width: 90%;
+    max-width: 1100px;
+    border: 2px solid #a2e9ff; 
+    padding: 60px 40px;
+    position: relative;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.content-container {
+    display: flex;
+    gap: 40px; 
+    align-items: flex-start;
+}
+
+
+.left-card {
+    flex: 1; 
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.left-card h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.left-card .description {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.author-info .name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.author-info .position {
+    font-size: 12px;
+    color: #4a90e2; 
+}
+
+.right-text {
+    flex: 1.5; 
+}
+
+.right-text p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.right-text .bold-text {
+    font-weight: bold;
+    color: #333;
+}
